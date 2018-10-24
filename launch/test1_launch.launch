@@ -1,0 +1,8 @@
+<launch>
+  
+    <!-- camera driver nodelet -->
+    <node pkg="online_photometric_calibration_version2" type="test2" name="calibrator" 
+          args="-i /home/prakveer/catkin_ws/vio_images/sequence_30/images/ --exposure-gt-file /home/prakveer/catkin_ws/vio_images/sequence_30/times.txt"
+           output="screen" />
+
+</launch>
