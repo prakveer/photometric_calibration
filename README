@@ -1,12 +1,13 @@
 This version of online photometric calibration subscribes to an image topic, takes a text file of gt exp times and publishes a photometrically corrected image.
 This does not use the rapid exposure estimator.
 
-To run.
+Catkin build your packages
 
-First 
-Make sure your directory for the times.txt file is corrected inside test2.cpp
-Next set your directory for the images inside image pub
 
-Now rosrun package_name test2
+To run:
+First,
+Set your directories for the images and times.txt inside the test1.launch
+
+
+Now roslaunch package_name test1.launch
 and Next rosrun package_name image_pub
-
